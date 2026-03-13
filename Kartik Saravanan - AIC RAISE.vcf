@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 26.3//EN
+N:Saravanan;Kartik;;;
+FN:Kartik Saravanan
+ORG:AIC RAISE;
+TITLE:Strategic Operations Fellow
+item1.EMAIL;type=INTERNET;type=pref:Kartsarav@gmail.com
+item1.X-ABLabel:Work
+item2.EMAIL;type=INTERNET:Ecosystem@aicraise.com
+item2.X-ABLabel:AIC RAISE
+item3.TEL;type=pref:+1 (425) 270-7089
+item3.X-ABLabel:US
+item4.TEL:+91 74188 64002
+item4.X-ABLabel:IN
+X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/LinkedIn.com/in/kartsarav
+item5.URL;type=pref:Aicraise.com
+item5.X-ABLabel:AIC RAISE
+END:VCARD
