@@ -15,12 +15,21 @@
   --border: rgba(255, 255, 255, 0.15);
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url('background_image.jpg') center / cover no-repeat;
+  z-index: -1;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   height: 100%;
+  background: url('background_image.jpg') center / cover no-repeat;
 }
 
 body {
@@ -33,12 +42,8 @@ body {
   justify-content: center;
 
   min-height: 100dvh;
-  height: 100dvh;
-
-  background: url('background_image.jpg') center / cover no-repeat;
-
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 20px;
+  overflow: hidden;
 }
 
 /* Fine control for different screen sizes */
@@ -63,7 +68,6 @@ body {
 @supports (-webkit-touch-callout: none) {
   html, body {
     height: -webkit-fill-available;
-    min-height: -webkit-fill-available;
   }
 }
 
