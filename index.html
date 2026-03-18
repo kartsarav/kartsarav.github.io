@@ -8,7 +8,7 @@
 
 :root {
   --card-bg: rgba(30, 40, 45, 0.45);
-  --text-primary: #e6e6e6;
+  --text-primary: #f2f2f2;
   --text-secondary: #b0bec5;
   --button-bg: rgba(255, 255, 255, 0.08);
   --button-hover: rgba(255, 255, 255, 0.18);
@@ -119,12 +119,19 @@ h1 {
 
   transition: all 0.2s ease;
 }
+.button.primary {
+    background: rgba(255,255,255,0.16);
+    border: 1px solid rgba(255,255,255,0.25);
+  }
 
 .button:hover {
   background: var(--button-hover);
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
+.button:active {
+    transform: scale(0.98);
+  }
 
 .button img {
   width: 18px;
@@ -141,6 +148,9 @@ h1 {
 .row .button {
   flex: 1;
 }
+.group-spacer {
+    height: 8px;
+  }
 
 @media (max-width: 480px) {
 
@@ -173,16 +183,20 @@ Strategic Operations Fellow<br>
 AIC RAISE
 </div>
 
-<a class="button" href="Kartik Saravanan - AIC RAISE.vcf">Save Contact ↓</a>
+<a class="button primary" href="Kartik Saravanan - AIC RAISE.vcf">Save Contact ↓</a>
 
 <div class="row">
-  <a class="button" href="tel:+14252707089">Call (US)</a>
-  <a class="button" href="tel:+917418864002">Call (IN)</a>
+  <a class="button" href="tel:+14252707089">Call – US</a>
+  <a class="button" href="tel:+917418864002">Call – India</a>
 </div>
 
-<a class="button" href="mailto:Ecosystem@aicraise.com">AIC RAISE Email</a>
-<a class="button" href="mailto:Kartsarav@gmail.com">Work Email</a>
-
+<a class="button" href="mailto:Ecosystem@aicraise.com">Email – AIC RAISE</a>
+<a class="button" href="mailto:Kartsarav@gmail.com">Email – Direct</a>
+<a class="button" href="https://aicraise.com">
+  <img src="ar logo.png" alt="AIC RAISE">
+  AIC RAISE ↗
+</a>
+<div class="group-spacer"></div>
 <a class="button" href="https://LinkedIn.com/in/kartsarav">
   <img src="InBug-White.png" alt="LinkedIn">
   LinkedIn ↗
